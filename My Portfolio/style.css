@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contener {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidbar {
+    background-color: #27c97e;
+    width: 20vw;
+    min-height: 100vh;
+    /* transform: translate(-443px, 0px); */
+    position: fixed;
+}
+
+
+/* .sidbarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+} */
+
+.sidbar nav {
+    padding-top: 50px;
+    font-size: 25px;
+    position: relative;
+}
+
+.sidbar nav li {
+    list-style: outside;
+    padding: 5px;
+    padding-left: 3em;
+}
+
+.sidbar nav li a {
+    text-decoration: none;
+    color: white;
+    width: auto;
+    display: inline-block;
+}
+
+.sidbar nav li:hover {
+    background-color: rgb(227, 227, 182);
+    color: black;
+}
+
+.sidbar nav li a:hover {
+    color: black;
+}
+
+.main {
+    width: 80vw;
+    background-color: #d6d0d0;
+    margin-left: 20vw;
+}
+
+.cross img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    margin-right: 80px;
+}
+
+.hangor img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.info_contener {
+    background-color: rgb(227, 227, 182);
+    min-height: 100vh;
+    width: 60vw;
+    margin: 100px auto;
+}
+
+.dev_pic {
+    padding-left: 1px;
+    float: left;
+    clip-path: circle(110px);
+}
+
+.dev_info {
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 2.5em;
+    color: black;
+}
+
+.name {
+    font-size: 3em;
+    color: #27c97e;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+    font-size: 2em;
+}
+
+.more_about {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.buttons button {
+    padding: 7px;
+    background-color: #27c97e;
+    color: white;
+    border: 2px #27c97e;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 10px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #27c97e;
+}
+
+.abouts {
+    padding-left: 10px;
+}
+
+.abouts p {
+    padding-left: 20px;
+}
+
+.skill_contener {
+    padding-left: 10px;
+}
+
+.skill_item {
+    padding-left: 20px;
+}
+
+.projects {
+    padding-left: 10px;
+}
+
+.skill {
+    width: 250px;
+    height: 5px;
+    border: #27c97e 2px;
+    margin-bottom: 5px;
+}
+
+i {
+    color: grey;
+}
+
+.done {
+    width: 250px;
+    background-color: #27c97e;
+}
+
+.progress {
+    width: 125px;
+    background-color: #27c97e;
+}
+
+.contacts {
+    width: 60vw;
+    background-color: #d6d0d0;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.information {
+    flex-direction: column;
+    padding-right: 500px;
+    display: flex;
+    padding-top: 40px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input[type=text] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type=email] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type=submit] {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #27c97e;
+    background-color: #27c97e;
+    color: white;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #27c97e;
+}
+
+@media(max-width:1000px) {
+    .dev_info {
+        font-size: 10px;
+    }
+    .sidbar {
+        transform: translate(-1433px, 0px);
+        animation-timeline: 1.5s;
+        position: absolute;
+    }
+    .main {
+        margin-left: 0px;
+        width: 100vw;
+    }
+}
+
+
+/* @media(min-width:700) {
+    li {
+        padding-right: 2em;
+    }
+} */

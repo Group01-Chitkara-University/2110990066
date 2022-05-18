@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contener {
+    display: flex;
+}
+
+.sidbar {
+    background-color: #27c97e;
+    padding-left: 5px;
+    width: 20vw;
+    height: 100vw;
+    overflow: hidden;
+}
+
+.sidbar nav {
+    padding-top: 20px;
+    ;
+    font-size: 25px;
+}
+
+.sidbar nav li {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.sidbar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidbar nav li:hover {
+    background-color: rgb(227, 227, 182);
+}
+
+.sidbar nav li a:hover {
+    background-color: rgb(227, 227, 182);
+    color: black;
+}
+
+.main {
+    width: 80vw;
+    background-color: #d6d0d0;
+    padding-left: 30px;
+    overflow: scroll;
+}
