@@ -20,6 +20,12 @@ int main() {
 	        case 3:
 	            cout<<"three"<<"\n";
 	            break;
+			case 6:
+	            cout<<"six"<<"\n";
+	            break;
+	        case 7:
+	            cout<<"seven"<<"\n";
+	            break;
 	       
 	        
 	        default:
