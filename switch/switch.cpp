@@ -21,11 +21,11 @@ int main() {
 	            cout << "three" << "\n";
 	            break;
 	        case 8:
-				cout << "eight" << "\n";
-				break;
+		    cout << "eight" << "\n";
+		    break;
 	        case 9:
-				cout << "nine" << "\n";
-				break;
+       		    cout << "nine" << "\n";
+		    break;
 	        
 	        default:
 	         cout<<"not in range"<<"\n";
