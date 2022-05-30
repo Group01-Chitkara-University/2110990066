@@ -11,8 +11,8 @@ int main() {
 	    cin >> x;
 	    switch(x)
 	    {
+
 			//Switch cases
-			//
 			//
 	        case 1:
 	            cout << "one" << "\n";
@@ -42,6 +42,8 @@ int main() {
 	        case 9:
        		    cout << "nine" << "\n";
 		    	break;
+
+
 
 	        
 	        default:
