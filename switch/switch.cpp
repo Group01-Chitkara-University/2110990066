@@ -8,18 +8,19 @@ int main() {
 	while(t--)
 	{
 	    int x;
-	    cin>>x;
+	    cin >> x;
 	    switch(x)
 	    {
 	        case 1:
-	            cout<<"one"<<"\n";
+	            cout << "one" << "\n";
 	            break;
 	        case 2:
-	            cout<<"two"<<"\n";
+	            cout << "two" << "\n";
 	            break;
 	        case 3:
-	            cout<<"three"<<"\n";
+	            cout << "three" << "\n";
 	            break;
+
 		case 4:
 	            cout<<"four"<<"\n";
 	            break;
@@ -32,8 +33,16 @@ int main() {
 		case 7:
 	            cout<<"seven"<<"\n";
 	            break;		
-//>>>>>>> 2df04a829978ff17586299c66ef3f6558dfe970d
+
 	       
+
+	        case 8:
+		    cout << "eight" << "\n";
+		    break;
+	        case 9:
+       		    cout << "nine" << "\n";
+		    break;
+
 	        
 	        default:
 	         cout<<"not in range"<<"\n";
