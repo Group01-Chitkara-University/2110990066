@@ -11,6 +11,7 @@ int main() {
 	    cin >> x;
 	    switch(x)
 	    {
+			//
 	        case 1:
 	            cout << "one" << "\n";
 	            break;
@@ -21,11 +22,11 @@ int main() {
 	            cout << "three" << "\n";
 	            break;
 	        case 8:
-		    cout << "eight" << "\n";
-		    break;
+		    	cout << "eight" << "\n";
+		    	break;
 	        case 9:
        		    cout << "nine" << "\n";
-		    break;
+		    	break;
 	        
 	        default:
 	         cout<<"not in range"<<"\n";
