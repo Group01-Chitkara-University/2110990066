@@ -11,6 +11,9 @@ int main() {
 	    cin >> x;
 	    switch(x)
 	    {
+			//Switch cases
+			//
+			//
 	        case 1:
 	            cout << "one" << "\n";
 	            break;
@@ -21,27 +24,24 @@ int main() {
 	            cout << "three" << "\n";
 	            break;
 
-		case 4:
+		    case 4:
 	            cout<<"four"<<"\n";
 	            break;
 	        case 5:
 	            cout<<"five"<<"\n";
 	            break;
-		case 6:
+			case 6:
 	            cout<<"six"<<"\n";
-		    break; 
-		case 7:
+		    	break; 
+			case 7:
 	            cout<<"seven"<<"\n";
-	            break;		
-
-	       
-
+	            break;
 	        case 8:
-		    cout << "eight" << "\n";
-		    break;
+		    	cout << "eight" << "\n";
+		    	break;
 	        case 9:
        		    cout << "nine" << "\n";
-		    break;
+		    	break;
 
 	        
 	        default:
